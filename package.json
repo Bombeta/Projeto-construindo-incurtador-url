@@ -1,0 +1,24 @@
+{
+  "name": "encurtador-de-url",
+  "version": "1.0.0",
+  "description": "URL shortner for Dio project",
+  "main": "index.js",
+  "scripts": {
+    "build:watch": "tsc -w",
+    "dev": "nodemon ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paulo Estevão",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mongoose": "^5.11.97",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.8",
+    "nodemon": "^2.0.15",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  }
+}
